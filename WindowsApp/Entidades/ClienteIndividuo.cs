@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsApp.Entidades
 {
-    internal class ClienteIndividuo
+    public class ClienteIndividuo
     {
         public string Nombre { get; set; }
         public string CUIT { get; set; }

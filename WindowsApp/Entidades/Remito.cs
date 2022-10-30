@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsApp.Entidades
 {
-    internal class Remito
+    public class Remito
     {
         public string Numero { get; set; }
         public DateTime Feha { get; set; }

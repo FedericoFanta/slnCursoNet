@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WindowsApp.Entidades
 {
-    internal class Factura
+    public class Factura
     {
         public string Tipo { get; set; }
         public string Numero { get; set; }
