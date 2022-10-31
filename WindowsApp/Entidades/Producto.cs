@@ -17,6 +17,8 @@ namespace WindowsApp.Entidades
         public decimal PrecioVenta { get;}
         public string Proveedor { get; set; }
         public string Categoria { get; set; }
+        public decimal PrecioBruto { get { return PrecioCosto + Convert.ToDecimal(this.Margen); } }
+        public decimal PrecioVenta { get { return PrecioBruto * Convert.ToDecimal(1 + this.IVA); } }
         public string SubCategoria { get; set; }
         
     }
